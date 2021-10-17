@@ -1,5 +1,5 @@
 {
-    "name": "psr/cache",
+    "name": "profile/psr-cache",
     "description": "Common interface for caching libraries",
     "keywords": ["psr", "psr-6", "cache"],
     "license": "MIT",
@@ -14,15 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Psr\\Cache\\": "src/"
-        }
-    },
-    "suggest": {
-        "fig/cache-util": "Provides some useful PSR-6 utilities"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.0.x-dev"
+            "Profile\\Psr\\Cache\\": "src/"
         }
     }
 }
