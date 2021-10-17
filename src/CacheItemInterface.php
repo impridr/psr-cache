@@ -86,7 +86,7 @@ interface CacheItemInterface
      * @return static
      *   The called object.
      */
-    public function expiresAt(?int $expiration): static;
+    public function expiresAt(?int $expiration): self;
 
     /**
      * Sets the relative expiration time for this cache item.
