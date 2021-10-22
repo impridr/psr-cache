@@ -46,7 +46,7 @@ interface CacheItemInterface
      * @return mixed
      *   The value corresponding to this cache item's key, or null if not found.
      */
-    public function get(): mixed;
+    public function get(): ?array;
 
     /**
      * Confirms if the cache item lookup resulted in a cache hit.
